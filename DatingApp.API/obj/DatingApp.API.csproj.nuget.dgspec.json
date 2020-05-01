@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "C:\\DatingApp\\DatingApp.api\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "C:\\DatingApp\\DatingApp.api\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "C:\\DatingApp\\DatingApp.api\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "C:\\DatingApp\\DatingApp.api\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\tariq.iqbal\\.nuget\\packages\\",
-        "outputPath": "C:\\DatingApp\\DatingApp.API\\obj\\",
+        "outputPath": "C:\\DatingApp\\DatingApp.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -42,6 +42,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -53,6 +57,14 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.1, )"
             }
           },
           "imports": [
